@@ -40,7 +40,6 @@ main() {
   var twoDouble = oneDouble * 5;
 
   String oneString = two.toString();
-  var doubleString = twoDouble.toString();
 
   assert(one == 1);
   assert(two == 2);
@@ -49,7 +48,7 @@ main() {
 
   var move1 = 3 << 1; // 0011 << 1 == 0110
   var move2 = 3 >> 1; // 0011 >> 1 == 0001
-  var and = 3 & 4; // 0011 | 0100 == 0111
-  var or = 3 | 4; // 0011 & 0100 == 0000
+  var and = 3 & 4; // 0011 & 0100 == 0000
+  var or = 3 | 4; // 0011 | 0100 == 0111
   print("move1:$move1  move2:$move2  and:$and  or$or");
 }
